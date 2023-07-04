@@ -1,0 +1,42 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "solicitudes Thunder Client",
+    "dateExported": "2023-07-04T00:47:26.463Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "37afd450-d35c-4263-82d6-e0b57329f431",
+            "colId": "9f92e189-2d9b-4fa5-a543-a3a5517e3c5a",
+            "containerId": "",
+            "name": "frase-completa",
+            "url": "http://localhost:3000/frase-completa",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-07-04T00:30:29.470Z",
+            "modified": "2023-07-04T00:30:45.900Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4734a311-bef1-4d98-9f29-131ad3e76bfc",
+            "colId": "9f92e189-2d9b-4fa5-a543-a3a5517e3c5a",
+            "containerId": "",
+            "name": "palabra",
+            "url": "http://localhost:3000/palabras",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-07-04T00:32:35.625Z",
+            "modified": "2023-07-04T00:33:15.326Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"palabra\": \"ejemplo\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
